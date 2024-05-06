@@ -27,7 +27,7 @@ st.image(image, width=150)
 st.title("Audience Navigator")
 st.markdown("Built using Lyzr SDK🚀")
 
-input = st.text_input("Please enter your company's name , its core values and its goal.",placeholder=f"""Type here""")
+input = st.text_input("Welcome to Audience Navigator, powered by Lyzr SDK! Simply input your company's name, core values, and goals to receive tailored marketing strategies and actionable steps from our expert COPYWRITER agent, designed to resonate with your target audience and achieve your marketing objectives. Let's navigate your audience together!",placeholder=f"""Type here""")
 
 open_ai_text_completion_model = OpenAIModel(
     api_key=st.secrets["apikey"],
